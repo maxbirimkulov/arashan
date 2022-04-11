@@ -5,10 +5,12 @@
     list-style-type: none;
     text-decoration: none;
     resize: none;
+    font-style: normal;
 }
 
 .container{
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 

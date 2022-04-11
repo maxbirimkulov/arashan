@@ -1,0 +1,76 @@
+.day2{
+    padding: 65px 0 80px;
+    position: relative;
+    overflow-y: visible;
+}
+
+.day2::before{
+    position: absolute;
+    content: url("./bg.png");
+    top: 0;
+    right: 0;
+
+}
+
+.day2__clouds{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-40%);
+    z-index: 3;
+    width: 100%;
+}
+
+.day2 .container{
+    position: relative;
+    z-index: 7;
+}
+
+.day2__title{
+    font-family: 'Inter',sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 48px;
+
+}
+
+.day2__title-span{
+    color: #F47648;
+}
+.day2__text, .day2__item{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+}
+
+.day2__text_first{
+    margin-bottom: 40px;
+}
+
+.day2__text_sec{
+    margin-bottom: 64px;
+}
+
+.day2__content{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+
+.day2__carousel{
+    background: #313131;
+    width: 600px;
+}
+
+.day2__item{
+    margin-bottom: 30px;
+}
+
+.day2__item:last-child{
+    margin-bottom: 0;
+}
