@@ -1,0 +1,59 @@
+.day3{
+    padding: 80px 0 284px;
+    position: relative;
+}
+
+.day3__bg{
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+}
+
+.day3 .container{
+    position: relative;
+    z-index: 4;
+}
+
+
+.day3__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.day3__title{
+    font-family: 'Inter',sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 48px;
+
+}
+
+.day3__title-span{
+    color: #F47648;
+}
+
+.day3__carousel{
+    width: 600px;
+    background-color: grey;
+    height: 300px;
+}
+
+.day3__item{
+    margin-bottom: 30px;
+}
+
+.day3__item:last-child{
+    margin-bottom: 0;
+}
+
+.day3__item{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+}
