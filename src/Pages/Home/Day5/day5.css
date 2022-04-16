@@ -4,6 +4,15 @@
     position: relative;
 }
 
+.day6__carousel{
+    position: absolute;
+    width: 700px;
+    z-index: 10;
+    bottom: 324px!important;
+    top: unset;
+    right: 0;
+}
+
 .day5::before{
     content: '';
     height: 845px;

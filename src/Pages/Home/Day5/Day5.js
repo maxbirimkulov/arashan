@@ -1,6 +1,8 @@
 import React from 'react';
 import './day5.css'
-import bg from './bg.png'
+import SwiperRight from "../SwiperRight/SwiperRight";
+import card1 from './card1.png'
+import card2 from './card2.png'
 
 const Day5 = () => {
     return (
@@ -67,8 +69,10 @@ const Day5 = () => {
                         </div>
 
                     </div>
-                    <div className='day5__carousel'></div>
                 </div>
+            </div>
+            <div className="day6__carousel">
+                <SwiperRight card1={card1} card2={card2}/>
             </div>
         </section>
     );

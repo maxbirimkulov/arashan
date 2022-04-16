@@ -1,6 +1,8 @@
 import React from 'react';
-
 import './day1.css'
+import SwiperRight from "../SwiperRight/SwiperRight";
+import card1 from './card1.png'
+import card2 from './card2.png'
 
 const Day1 = () => {
     return (
@@ -31,6 +33,10 @@ const Day1 = () => {
                     </li>
                 </ul>
 
+            </div>
+
+            <div className='day1__carousel'>
+                <SwiperRight card1={card1} card2={card2}/>
             </div>
 
         </section>

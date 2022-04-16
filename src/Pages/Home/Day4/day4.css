@@ -1,6 +1,7 @@
 .day4{
     padding: 105px 0 98px;
     background: #000000;
+    position: relative;
 }
 
 .day4 .container{
@@ -10,6 +11,14 @@
 .day4__birds {
     position: absolute;
     bottom: -110px;
+    right: 0;
+}
+
+.day4__carousel{
+    position: absolute;
+    width: 700px;
+    z-index: 10;
+    top: 145px;
     right: 0;
 }
 
@@ -34,11 +43,7 @@
     color: #F47648;
 }
 
-.day4__carousel{
-    width: 600px;
-    background-color: grey;
-    height: 300px;
-}
+
 
 .day4__item{
     margin-bottom: 30px;

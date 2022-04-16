@@ -1,9 +1,18 @@
 .firstScreen{
     width: 100%;
-    padding: 163px 0 48px;
+    padding: 163px 0 107px;
     background: url("./bgBig.png") center/cover no-repeat;
     position: relative;
 }
+
+.firstScreen__carousel{
+    width: 700px;
+    position: absolute;
+    bottom: 137px;
+    right: 0;
+    z-index: 10;
+}
+
 
 .firstScreen::before{
     content: '';

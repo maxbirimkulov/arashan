@@ -5,6 +5,14 @@
 }
 
 
+.day1__carousel{
+    position: absolute;
+    width: 700px;
+    z-index: 10;
+    top: 149px;
+    right: 0;
+}
+
 .day1 .container{
     position: relative;
     z-index: 2;

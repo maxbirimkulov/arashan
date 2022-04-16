@@ -11,10 +11,12 @@ import Day5 from "./Day5/Day5";
 import Day7 from "./Day7/Day7";
 import Day8 from "./Day8/Day8";
 import Sum from "./Sum/Sum";
+import Online from "./Online/Online";
+import Team from "./Team/Team";
 
 const Home = () => {
     return (
-        <section className='home'>
+        <>
             <FirstScreen/>
             <Begin/>
             <Day1/>
@@ -26,7 +28,9 @@ const Home = () => {
             <Day7/>
             <Day8/>
             <Sum/>
-        </section>
+            <Online/>
+            <Team/>
+        </>
     );
 };
 

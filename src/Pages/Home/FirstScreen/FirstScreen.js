@@ -1,9 +1,16 @@
 import React from 'react';
+import { Swiper, SwiperSlide } from "swiper/react";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {FaFacebookF} from "react-icons/fa"
 import {BsTelegram, BsWhatsapp} from "react-icons/bs";
 import img from './whiteblock.png'
 import './firstScreen.css'
+import "swiper/css";
+import card1 from './card1.png'
+import card2 from './card2.png'
+
+import { Navigation } from "swiper";
+import SwiperRight from "../SwiperRight/SwiperRight";
 
 const FirstScreen = () => {
     return (
@@ -16,7 +23,6 @@ const FirstScreen = () => {
                 </div>
                 <div className='firstScreen__content'>
                     <p className='firstScreen__text'>Тур перевернет ваш мир с ног на голову <br/> и оставит впечатления на всю жизнь. </p>
-
                     <div className='firstScreen__tour'>
                         <a href="#" className='firstScreen__link'>Расписание тура</a>
                         <div className='firstScreen__circle'>
@@ -46,9 +52,11 @@ const FirstScreen = () => {
                             <BsWhatsapp/>
                         </a>
                     </div>
+
                 </div>
-
-
+            </div>
+            <div className='firstScreen__carousel'>
+                <SwiperRight card1={card1} card2={card2}/>
             </div>
         </section>
     );
