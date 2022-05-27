@@ -23,7 +23,6 @@ const Home = () => {
             <Day2/>
             <Road/>
             <Day3/>
-            <Day4/>
             <Day5/>
             <Day7/>
             <Day8/>

@@ -4,13 +4,14 @@
     overflow-y: visible;
 }
 
-.day2::before{
+.day2__lake{
     position: absolute;
-    content: url("./bg.png");
-    top: 0;
+    top: 50px;
     right: 0;
-
+    max-width: 700px;
+    border-bottom-left-radius: 20px;
 }
+
 
 .day2__clouds{
     position: absolute;
@@ -36,6 +37,8 @@
 
 }
 
+
+
 .day2__title-span{
     color: #F47648;
 }
@@ -53,18 +56,21 @@
 }
 
 .day2__text_sec{
-    margin-bottom: 64px;
+    margin-bottom: 168px;
 }
 
 .day2__content{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     column-gap: 60px;
 }
 
 .day2__carousel{
-    background: #313131;
-    width: 600px;
+    max-width: 700px;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    z-index: 20;
 }
 
 .day2__item{

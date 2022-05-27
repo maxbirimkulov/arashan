@@ -1,19 +1,19 @@
 import React from 'react';
-import {Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
+import {Navigation} from "swiper";
 import img from "../FirstScreen/whiteblock.png";
-import './swiperRight.css'
+import './swiperLeft1.css'
 
-
-const SwiperRight = ({card1, card2, card3}) => {
+const SwiperLeft1 = ({card1, card2, card3}) => {
     return (
         <Swiper
+            dir="rtl"
             loop={true}
             slidesPerView={"auto"}
-            spaceBetween={20}
+            spaceBetween={30}
             navigation={true}
             modules={[Navigation]}
-            className="mySwiper swiper-right"
+            className="mySwiper swiper-left1"
         >
             <SwiperSlide>
                 <img className='swiper__img' src={card1} alt="card1"/>
@@ -22,11 +22,11 @@ const SwiperRight = ({card1, card2, card3}) => {
                 <img className='swiper__img' src={card2} alt="card2"/>
             </SwiperSlide>
             <SwiperSlide>
-                <img className='swiper__img' src={card3} alt="card3"/>
+                <img className='swiper__img' src={card3} alt="card1"/>
             </SwiperSlide>
 
         </Swiper>
     );
 };
 
-export default SwiperRight;
+export default SwiperLeft1;

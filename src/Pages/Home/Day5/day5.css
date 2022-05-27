@@ -45,7 +45,11 @@
 
 .day5__content{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.day5 .container:nth-child(2) .day5__content{
+    justify-content: flex-start;
 }
 
 .day5__title{
@@ -63,9 +67,11 @@
 }
 
 .day5__carousel{
-    width: 600px;
-    background-color: grey;
-    height: 300px;
+    max-width: 576px;
+    position: absolute;
+    left: 0;
+    top: 208px;
+    z-index: 20;
 }
 
 .day5__item{
@@ -118,4 +124,29 @@
     color: #BABABA;
 
     opacity: 0.7;
+}
+
+
+.day5 .swiper-left .swiper-button-prev:hover::after ,  .day5 .swiper-left .swiper-button-next:hover:after{
+    color: black;
+    transition: .3s;
+}
+
+.day5 .swiper-left .swiper-button-prev, .day5 .swiper-left .swiper-button-next{
+
+    border: 1px solid white;
+
+}
+.day5 .swiper-left .swiper-button-prev:hover , .day5 .swiper-left1 .swiper-button-next:hover{
+    background: white;
+    transition: .3s;
+}
+
+.day5 .swiper-left .swiper-button-next::after{
+    color: white;
+}
+.day5 .swiper-left .swiper-button-prev::after{
+
+    color: white;
+
 }

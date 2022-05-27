@@ -67,13 +67,16 @@
 
 .day7__content{
     display: flex;
-    justify-content: space-between;
-    column-gap: 60px;
+    justify-content: flex-end;
+
 }
 
 .day7__carousel{
-    background: #313131;
-    width: 600px;
+    position: absolute;
+    z-index: 20;
+    max-width: 700px;
+    bottom: 0;
+    left: 0;
 }
 
 .day7__item{

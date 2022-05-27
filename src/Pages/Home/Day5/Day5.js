@@ -3,36 +3,29 @@ import './day5.css'
 import SwiperRight from "../SwiperRight/SwiperRight";
 import card1 from './card1.png'
 import card2 from './card2.png'
+import SwiperLeft from "../SwiperLeft/SwiperLeft";
 
 const Day5 = () => {
     return (
         <section className='day5'>
             <div className="container">
                 <div className='day5__content'>
-                    <div className='day5__carousel'></div>
+
                     <div className='day5__info day5__info_1'>
-                        <h2 className='day5__title'> <span className='day3__title-span'>День 5.</span>Морская прогулка к <br/>острову Старичков</h2>
+                        <h2 className='day5__title'> <span className='day3__title-span'>День 4. </span>Алтын-Арашан </h2>
 
                         <ul className='day5__list'>
                             <li className='day5__item'>
-                                Инструктаж по поведению группы при передвижении на <br/> плавсредствах, приему таблеток от морской болезни.
+                                Утром после завтрака собираемся в <br/>
+                                поход на водопад, источники под названием «Гнездо» <br/>
+                                они в форме сердца, и прогулка на лошади  по лесу.
                                </li>
                             <li className='day5__item'>
-                                Выезд на причал.  Морская прогулка по Авачинской бухте. <br/>
-                                Осмотр панорамы города Петропавловска-Камчатского, <br/>
-                                Авачинской губы и Авачинского залива. Маршрут пролегает <br/>
-                                мимо бухты Тихая, острова Бабушкин камень, мыса <br/>
-                                Станицкого, камней «Три брата». Увлекательная возможность <br/>
-                                донной рыбалки на терпуга, ленка, камбалу у «Трех братьев», <br/>
-                                мыса Безымянный, у острова Старичков.
-
+                                Вы можете сделать прекрасные фотографии, <br/>
+                                и подышать свежим воздухом Алтын-Арашана.
                             </li>
                             <li className='day5__item'>
-                                Осмотр птичьих базаров - смешанных колонии кайр, моевок <br/> и бакланов. Трансфер в гостиницу.
-
-                            </li>
-                            <li className='day5__item'>
-                                Продолжительность 6 часов.
+                                Питание: трех разовое
                             </li>
                         </ul>
 
@@ -43,18 +36,24 @@ const Day5 = () => {
             <div className="container">
                 <div className='day5__content'>
                     <div className='day5__info'>
-                        <h2 className='day5__title'> <span className='day3__title-span'>День 6.</span>
-                             Берег Тихого <br/> океана, экскурсия по <br/> городу</h2>
+                        <h2 className='day5__title'> <span className='day3__title-span'>День 5. </span>
+                            Алтын-Арашан - КАРАКОЛ</h2>
 
                         <ul className='day5__list'>
                             <li className='day5__item'>
-                                ИПоездка на берег Тихого океана, в район Халактырского пляжа. <br/>
-                                Прогулка. Обед в городе. Обзорная экскурсия по г. <br/>
-                                Петропавловску-Камчатскому с посещением смотровых <br/> площадок. Рыбный рынок.
+                                Приезд после обеда в город <br/>
+                                Посещение Дунганской мечети
                             </li>
                             <li className='day5__item'>
-                                Продолжительность -5 часов.  Трансфер в гостиницу.
+                                Скай парадайс,подъем  на канатке , <br/>
+                                вид города с панорамы
                             </li>
+                             <li className='day5__item'>
+                                 Ночевка в гостевом доме
+                             </li>
+                            <li className='day5__item'>
+                                Питание: ужин/ завтрак
+                             </li>
 
                         </ul>
 
@@ -73,6 +72,9 @@ const Day5 = () => {
             </div>
             <div className="day6__carousel">
                 <SwiperRight card1={card1} card2={card2}/>
+            </div>
+            <div className='day5__carousel'>
+                <SwiperLeft card1={card1} card2={card2}/>
             </div>
         </section>
     );

@@ -61,3 +61,15 @@
 .day1__item-span{
     color: white;
 }
+
+.day1 .swiper-right .swiper-slide {
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+ .swiper-right .swiper-slide-active img {
+    position: relative;
+    top: 5px;
+}
+.swiper-right .swiper-slide img{
+    border-radius: 5px;
+}

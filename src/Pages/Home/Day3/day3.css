@@ -18,7 +18,7 @@
 
 .day3__content{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .day3__title{
@@ -36,9 +36,12 @@
 }
 
 .day3__carousel{
-    width: 600px;
-    background-color: grey;
+    position: absolute;
+    z-index: 20;
+    top: 129px;
+    width: 576px;
     height: 300px;
+    left:0;
 }
 
 .day3__item{

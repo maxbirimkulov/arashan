@@ -16,7 +16,7 @@
 
 .begin::after{
     content: url("./air.png");
-    top: 607px;
+    top: 657px;
     right: 0;
     position: absolute;
     z-index: 5;
@@ -70,9 +70,13 @@
     position: relative;
 }
 .begin__list::before{
-    content: url("./kamchatka.png");
+    content: 'AРАШАН';
+    font-size: 180px;
+    font-family: 'Inter',sans-serif;
+    color: #30323470;
+    font-weight: bold;
     bottom: -32px;
-    left: 323px;
+    right: 0;
     height: 20px;
     position: absolute;
 }
@@ -123,4 +127,29 @@
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+}
+
+.begin__btns{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    column-gap: 50px;
+    z-index: 30;
+}
+
+.begin__btn{
+    padding: 11px 15px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.begin__btn:hover{
+    transition: .5s;
+    background: #F47648;
+    color: white;
 }

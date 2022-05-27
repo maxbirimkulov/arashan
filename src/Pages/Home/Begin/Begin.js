@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './begin.css'
 import bg from './bg.png'
+import {CustomContext} from "../../../Context";
 
 const Begin = () => {
+
+    const {coast, setCoast} = useContext(CustomContext)
+
+
+
     return (
         <section className='begin'>
             <div className="container">
@@ -110,6 +116,10 @@ const Begin = () => {
                 <p className='begin__author'>Максим, @max_max</p>
             </div>
             <img src={bg} alt="begin bg" className='begin__bg'/>
+            <div className='begin__btns'>
+                <button className='begin__btn' type='button' onClick={() => setCoast('south')}>Южный берег</button>
+                <button className='begin__btn' type='button' onClick={() => setCoast('north')}>Северный берег</button>
+            </div>
         </section>
     );
 };

@@ -6,8 +6,11 @@ const Day8 = () => {
         <section className='day8'>
             <div className="container">
                 <h2 className='day8__title'> <span
-                    className='day8__title-span'>День 8.</span> Отъезд с <br/> Камчатки. Трансфер <br/> в аэропорт</h2>
-                <p className='day8__text'>Заезд на рынок, прощальное посещение «медведей», фото на <br/> память. Возвращайтесь следующим летом!</p>
+                    className='day8__title-span'>День 7.</span> Жети Огуз-Бишкек</h2>
+                <p className='day8__text'>
+                    После обеда выезд в город Бишкек (аэропорт Манас) <br/>
+                    Фото на память. <br/>
+                    Возвращайтесь следующим летом!</p>
             </div>
         </section>
     );

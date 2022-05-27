@@ -1,42 +1,44 @@
 import React from 'react';
 import './day1.css'
 import SwiperRight from "../SwiperRight/SwiperRight";
-import card1 from './card1.png'
-import card2 from './card2.png'
+import card1 from './ala4.jpg'
+import card2 from './alaarcha.jpeg'
+import card3 from './air.jpeg'
+
 
 const Day1 = () => {
     return (
         <section className='day1'>
+
             <div className="container">
-                <h2 className='day1__title'> <span className='day1__title-span'>День 1.</span> Прибытие. <br/> Встреча в аэропорту и <br/> размещение</h2>
+                <h2 className='day1__title'> <span className='day1__title-span'>День 1.</span> Прибытие. <br/> Встреча туристов, <br/>
+                    Бишкек(аэропорт Манас)
+                </h2>
 
                 <ul className='day1__list'>
                     <li className='day1__item'>
-                        С высоты птичьего полета вы увидите знаменитые <br/>
-                        «домашние» вулканы – Корякский, Авачинский и Козельский. <br/>
-                        У выхода в аэропорту <span className='day1__item-span'>вас встретят с табличкой «ДРИМ ТУР».</span>
+                        Прибытие в аэропорт. Переезд в город
+                        Бишкек. <br/> Размещение в гостинице. После небольшого <br/> отдыха, <span className='day1__item-span'>ознакомительная экскурсия</span> по городу
                     </li>
                     <li className='day1__item'>
-                       <span className='day1__item-span'>По пути в гостиницу сбор средств </span> с членов группы, <br/>
-                        инструктаж по программе этого дня (бассейн с термальной <br/>
-                        водой, шашлык, знакомство с группой, алкоголь, фейерверк <br/>
-                        не раньше 20:00).
-                    </li>
-                    <li className='day1__item'>
-                        После выезд (вид транспорта зависит от величины группы) на <br/>
-                        базу отдыха в курортный поселок Паратунка.
+                        <span className='day1__item-span'>Поездка в ущелье Ала-Арча. </span> <br/>
+                        Государственный природный парк Алa-Арча — парк <br/>
+                        расположенный на расстоянии 41 км от её столицы, <br/>
+                        на северном склоне Кыргызского хребта, на высоте 1600—4860м
+
 
                     </li>
                     <li className='day1__item'>
-                       <span className='day1__item-span'>Вечером</span>, после прибытия на Камчатку всех участников (если <br/>
-                        рейсы разные),  <span className='day1__item-span'>общая встреча</span>, проверка снаряжения, <br/>  обсуждение программы завтрашнего дня.
+                        Приезд в город, заселение в отеле <br/>
+                        Питание: завтрак/ужин
                     </li>
+
                 </ul>
 
             </div>
 
             <div className='day1__carousel'>
-                <SwiperRight card1={card1} card2={card2}/>
+                <SwiperRight card1={card3} card2={card2} card3={card1}/>
             </div>
 
         </section>
