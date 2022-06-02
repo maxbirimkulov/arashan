@@ -17,7 +17,8 @@ const FirstScreen = () => {
         <section className='firstScreen'>
             <img src={img} alt="oblako" className='firstScreen__img'/>
             <div className="container">
-                <h2 className='firstScreen__title'>Мечты о далекой <br/> Камчатке - близко</h2>
+                <h2 className='firstScreen__title'>Мечты о горном <br/>
+                    Кыргызстан - реально</h2>
                 <div className='firstScreen__time'>
                     23.06 - 04.07  DREAM TOUR
                 </div>

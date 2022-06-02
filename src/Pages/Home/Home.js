@@ -21,7 +21,7 @@ const Home = () => {
             <Begin/>
             <Day1/>
             <Day2/>
-            <Road/>
+            {/*<Road/>*/}
             <Day3/>
             <Day5/>
             <Day7/>

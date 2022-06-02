@@ -12,7 +12,7 @@ const Begin = () => {
     return (
         <section className='begin'>
             <div className="container">
-                <h2 className='begin__title'>Путешествие на край света <br/> начинается</h2>
+                <h2 className='begin__title'>Путешествие красоты Кыргызстана <br/> начинается</h2>
                 <p className='begin__subtitle'>Ваша мечта осуществилась, вы приняли решение, <br/> и вам предстоит путешествие на край света.</p>
                 <p className='begin__text'>
                     Этот маршрут лучший вариант для тех, кто хочет ощутить, как живёт самая <br/>
@@ -59,7 +59,7 @@ const Begin = () => {
                            </g>
                        </svg>
                        <p className='begin__item-hard'>Период</p>
-                       <p className='begin__item-category'>Июль - сентябрь</p>
+                       <p className='begin__item-category'>Май - Февраль</p>
                    </li>
                    <li className='begin__item'>
                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -106,9 +106,8 @@ const Begin = () => {
                    </li>
                </ul>
                 <p className='begin__about'>
-                    Камчатка – земля великолепной заснеженной <br/>
-                    природы, действующих вулканов и диких мест, <br/>
-                    где ещё не ступала нога человека.
+                    Кыргызстан -земля великолепной <br/> и красивой природой,
+                    <br/> горячих источников  и диких мест.
                 </p>
                 <p className='begin__comment'>“Когда мы подлетали к Камчатке, у меня <br/>
                     захватило дух от увиденного. Это за <br/>
