@@ -4,9 +4,7 @@ import FirstScreen from "./FirstScreen/FirstScreen";
 import Begin from "./Begin/Begin";
 import Day1 from "./Day1/Day1";
 import Day2 from "./Day2/Day2";
-import Road from "./Road/Road";
 import Day3 from "./Day3/Day3";
-import Day4 from "./Day4/Day4";
 import Day5 from "./Day5/Day5";
 import Day7 from "./Day7/Day7";
 import Day8 from "./Day8/Day8";
@@ -22,6 +20,7 @@ const Home = () => {
             <Day1/>
             <Day2/>
             {/*<Road/>*/}
+
             <Day3/>
             <Day5/>
             <Day7/>

@@ -2,7 +2,7 @@ import React from 'react';
 import './day4.css'
 import birds from './birds.png'
 import SwiperRight from "../SwiperRight/SwiperRight";
-import card1 from './card1.png'
+import card1 from './card2.png'
 import card2 from './card2.png'
 
 
@@ -17,7 +17,7 @@ const Day4 = () => {
 
                         <ul className='day4__list'>
                             <li className='day4__item'>
-                                Утром после завтрака собираемся в <br/>
+                                asdsadУтром после завтрака собираемся в <br/>
                                 поход на водопад, источники под названием «Гнездо» <br/>
                                 они в форме сердца, и прогулка на лошади  по лесу.
 

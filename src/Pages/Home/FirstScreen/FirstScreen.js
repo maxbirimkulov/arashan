@@ -8,13 +8,13 @@ import './firstScreen.css'
 import "swiper/css";
 import card1 from './card1.png'
 import card2 from './card2.png'
-
-import { Navigation } from "swiper";
 import SwiperRight from "../SwiperRight/SwiperRight";
+import Video from './video.mp4'
 
 const FirstScreen = () => {
     return (
         <section className='firstScreen'>
+            <video className='firstScreen__video' src={Video} autoPlay loop muted />
             <img src={img} alt="oblako" className='firstScreen__img'/>
             <div className="container">
                 <h2 className='firstScreen__title'>Мечты о горном <br/>
@@ -57,7 +57,7 @@ const FirstScreen = () => {
                 </div>
             </div>
             <div className='firstScreen__carousel'>
-                <SwiperRight card1={card1} card2={card2}/>
+                <SwiperRight card1={card1} card2={card2} card3={card2}/>
             </div>
         </section>
     );

@@ -1,8 +1,13 @@
 .firstScreen{
     width: 100%;
-    padding: 163px 0 107px;
-    background: url("./bg1.jpg") center/cover no-repeat;
+    padding: 163px 0 135px;
     position: relative;
+}
+.firstScreen__video{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .firstScreen__carousel{

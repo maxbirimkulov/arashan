@@ -1,7 +1,7 @@
 import React from 'react';
 import './day5.css'
 import SwiperRight from "../SwiperRight/SwiperRight";
-import card1 from './card1.png'
+import card1 from './card1.jpeg'
 import card2 from './card2.png'
 import SwiperLeft from "../SwiperLeft/SwiperLeft";
 
