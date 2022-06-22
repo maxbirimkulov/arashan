@@ -17,6 +17,7 @@ const FirstScreen = () => {
             <video className='firstScreen__video' src={Video} autoPlay loop muted />
             <img src={img} alt="oblako" className='firstScreen__img'/>
             <div className="container">
+
                 <h2 className='firstScreen__title'>Мечты о горном <br/>
                     Кыргызстан - реально</h2>
                 <div className='firstScreen__time'>

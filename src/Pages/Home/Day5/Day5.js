@@ -8,31 +8,34 @@ import SwiperLeft from "../SwiperLeft/SwiperLeft";
 const Day5 = () => {
     return (
         <section className='day5'>
-            <div className="container">
-                <div className='day5__content'>
+            <div className="day5__top">
+                <div className="container">
+                    <div className='day5__content'>
 
-                    <div className='day5__info day5__info_1'>
-                        <h2 className='day5__title'> <span className='day3__title-span'>День 4. </span>Алтын-Арашан </h2>
+                        <div className='day5__info day5__info_1'>
+                            <h2 className='day5__title'> <span className='day3__title-span'>День 4. </span>Алтын-Арашан </h2>
 
-                        <ul className='day5__list'>
-                            <li className='day5__item'>
-                                Утром после завтрака собираемся в <br/>
-                                поход на водопад, источники под названием «Гнездо» <br/>
-                                они в форме сердца, и прогулка на лошади  по лесу.
-                               </li>
-                            <li className='day5__item'>
-                                Вы можете сделать прекрасные фотографии, <br/>
-                                и подышать свежим воздухом Алтын-Арашана.
-                            </li>
-                            <li className='day5__item'>
-                                Питание: трех разовое
-                            </li>
-                        </ul>
+                            <ul className='day5__list'>
+                                <li className='day5__item'>
+                                    Утром после завтрака собираемся в <br/>
+                                    поход на водопад, источники под названием «Гнездо» <br/>
+                                    они в форме сердца, и прогулка на лошади  по лесу.
+                                </li>
+                                <li className='day5__item'>
+                                    Вы можете сделать прекрасные фотографии, <br/>
+                                    и подышать свежим воздухом Алтын-Арашана.
+                                </li>
+                                <li className='day5__item'>
+                                    Питание: трех разовое
+                                </li>
+                            </ul>
 
 
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div className="container">
                 <div className='day5__content'>
                     <div className='day5__info'>
@@ -48,12 +51,12 @@ const Day5 = () => {
                                 Скай парадайс,подъем  на канатке , <br/>
                                 вид города с панорамы
                             </li>
-                             <li className='day5__item'>
-                                 Ночевка в гостевом доме
-                             </li>
+                            <li className='day5__item'>
+                                Ночевка в гостевом доме
+                            </li>
                             <li className='day5__item'>
                                 Питание: ужин/ завтрак
-                             </li>
+                            </li>
 
                         </ul>
 

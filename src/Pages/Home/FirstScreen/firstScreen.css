@@ -22,7 +22,7 @@
 .firstScreen::before{
     content: '';
     width: 100%;
-    height: 100%;
+    height: 89%;
     top: 0;
     left: 0;
     position: absolute;
@@ -113,3 +113,26 @@
     font-size: 20px;
 }
 
+
+
+@media (max-width: 992px) {
+    .firstScreen {
+        padding: 116px 0 137px;
+    }
+    .firstScreen::before {
+        height: 81%;
+    }
+    .firstScreen__tour {
+        margin-bottom: 54px;
+    }
+    .firstScreen__title {
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .firstScreen__time {
+        font-size: 20px;
+    }
+    .firstScreen__carousel {
+        width: 565px;
+    }
+}

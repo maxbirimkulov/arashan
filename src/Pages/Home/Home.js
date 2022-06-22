@@ -11,6 +11,7 @@ import Day8 from "./Day8/Day8";
 import Sum from "./Sum/Sum";
 import Online from "./Online/Online";
 import Team from "./Team/Team";
+import Day4 from "./Day4/Day4";
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             {/*<Road/>*/}
 
             <Day3/>
+            {/*<Day4/>*/}
             <Day5/>
             <Day7/>
             <Day8/>
