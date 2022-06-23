@@ -154,3 +154,12 @@
 .day5__top {
     padding: 60px 0;
 }
+
+@media (max-width: 992px) {
+    .day5__carousel {
+        max-width: 490px;
+    }
+    .day6__carousel {
+        max-width: 530px;
+    }
+}

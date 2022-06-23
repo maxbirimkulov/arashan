@@ -124,3 +124,18 @@
 
     opacity: 0.7;
 }
+
+
+@media (max-width: 992px) {
+    .day7__carousel {
+        max-width: 505px;
+        bottom: -120px;
+    }
+    .day7__carousel .swiper-left1 .swiper-slide {
+        margin-left: 10px;
+    }
+
+    .day7__content-title {
+        color: white;
+    }
+}

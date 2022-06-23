@@ -1,6 +1,6 @@
 .firstScreen{
     width: 100%;
-    padding: 163px 0 135px;
+    padding: 120px 0 135px;
     position: relative;
 }
 .firstScreen__video{
@@ -22,7 +22,7 @@
 .firstScreen::before{
     content: '';
     width: 100%;
-    height: 89%;
+    height: 94%;
     top: 0;
     left: 0;
     position: absolute;
@@ -133,6 +133,6 @@
         font-size: 20px;
     }
     .firstScreen__carousel {
-        width: 565px;
+        width: 400px;
     }
 }

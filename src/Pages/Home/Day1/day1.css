@@ -7,9 +7,9 @@
 
 .day1__carousel{
     position: absolute;
-    width: 700px;
+    width: 670px;
     z-index: 10;
-    top: 149px;
+    top: 234px;
     right: 0;
 }
 
@@ -72,4 +72,15 @@
 }
 .swiper-right .swiper-slide img{
     border-radius: 5px;
+}
+
+@media (max-width: 992px) {
+    .day1__carousel {
+        width: 500px;
+        top: 228px;
+    }
+    .swiper-right .swiper-slide {
+        width: 58%;
+    }
+
 }

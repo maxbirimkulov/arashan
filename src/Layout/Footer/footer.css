@@ -141,3 +141,17 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 992px) {
+    .footer__col-3 {
+        width: 30%;
+        padding: 0 19px;
+    }
+    .footer__col-4 {
+        width: 23%;
+        padding-left: 10px;
+    }
+
+    .footer__tel {
+        font-size: 19px;
+    }
+}

@@ -80,3 +80,16 @@
 .day2__item:last-child{
     margin-bottom: 0;
 }
+
+@media (max-width: 992px) {
+    .day2__lake {
+        top: 40px;
+        max-width: 510px;
+    }
+    .day2__carousel {
+        max-width: 480px;
+    }
+    .swiper-left1 .swiper-slide {
+        width: 73% !important;
+    }
+}
