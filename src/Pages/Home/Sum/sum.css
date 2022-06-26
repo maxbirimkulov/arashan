@@ -179,3 +179,33 @@
         font-size: 15px;
     }
 }
+
+@media (max-width: 481px)  {
+    .sum__title {
+        font-size: 44px;
+    }
+    .sum__top {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .sum__tarif {
+        width: 100%;
+    }
+    .sum__circle {
+        width: 50px;
+        height: 50px;
+    }
+    .sum__top-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sum__top-list {
+        margin-bottom: 30px;
+    }
+    .sum__bot {
+        flex-wrap: wrap;
+        display: flex;
+        row-gap: 43px;
+    }
+}

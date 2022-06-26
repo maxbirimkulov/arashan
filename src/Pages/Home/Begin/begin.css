@@ -209,3 +209,25 @@
         text-align: center;
     }
 }
+
+@media (max-width: 481px) {
+    .begin {
+        padding: 78px 0;
+    }
+    .begin::after {
+        display: none;
+    }
+    .begin__subtitle {
+        font-size: 19px;
+    }
+    .begin__text {
+        font-size: 12px;
+    }
+    .begin__list::before {
+        font-size: 95px;
+    }
+    .begin__about {
+        margin-top: 223px;
+        font-size: 23px;
+    }
+}

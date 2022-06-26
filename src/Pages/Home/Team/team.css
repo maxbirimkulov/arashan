@@ -118,3 +118,13 @@
     }
 
 }
+
+@media (max-width: 481px) {
+    .team__title {
+        font-size: 35px;
+        line-height: 58px;
+    }
+    .team__subtitle {
+        font-size: 14px;
+    }
+}

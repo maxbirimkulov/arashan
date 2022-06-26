@@ -188,3 +188,15 @@
         width: 100%;
     }
 }
+
+@media (max-width: 481px) {
+    .day5__title {
+        font-size: 37px;
+    }
+    .day5__title_2 {
+        font-size: 33px;
+    }
+    .day5__info_1 {
+        margin-bottom: 50px;
+    }
+}

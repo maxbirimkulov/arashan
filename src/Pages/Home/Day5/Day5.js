@@ -39,7 +39,7 @@ const Day5 = () => {
             <div className="container">
                 <div className='day5__content'>
                     <div className='day5__info'>
-                        <h2 className='day5__title'> <span className='day3__title-span'>День 5. </span>
+                        <h2 className='day5__title day5__title_2'> <span className='day3__title-span'>День 5. </span>
                             Алтын-Арашан - КАРАКОЛ</h2>
 
                         <ul className='day5__list'>

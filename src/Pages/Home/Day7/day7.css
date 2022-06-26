@@ -165,4 +165,19 @@
     .day7__content {
         justify-content: flex-start;
     }
+    .day7__content-title {
+        color: black;
+    }
+}
+
+@media (max-width: 481px) {
+
+
+    .day7__title {
+        font-size: 30px;
+    }
+
+    .day7__text {
+        font-size: 17px;
+    }
 }

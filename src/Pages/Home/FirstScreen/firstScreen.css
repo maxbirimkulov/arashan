@@ -196,3 +196,13 @@
         height: 30px;
     }
 }
+
+@media (max-width: 481px) {
+    .firstScreen {
+        background: url("bg1.jpg") center / cover no-repeat;
+        padding: 110px 0 37px;
+    }
+    .firstScreen__video {
+        display: none;
+    }
+}

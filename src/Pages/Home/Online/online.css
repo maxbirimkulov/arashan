@@ -292,3 +292,14 @@ input[type="number"]::-webkit-inner-spin-button {
         width: 100%;
     }
 }
+
+@media (max-width: 481px) {
+    .online__form {
+        margin-bottom: 80px;
+    }
+    .online__bot-title {
+        font-size: 31px;
+        line-height: 39px;
+        color: #F47648;
+    }
+}

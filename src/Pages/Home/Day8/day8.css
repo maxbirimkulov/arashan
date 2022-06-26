@@ -35,3 +35,9 @@
     }
 
 }
+
+@media (max-width: 481px) {
+    .day8__title {
+        font-size: 32px;
+    }
+}

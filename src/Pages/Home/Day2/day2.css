@@ -131,6 +131,12 @@
         width: 100%;
     }
     .day2__item {
-        font-size: 17px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 481px) {
+    .day2__title {
+        font-size: 29px;
     }
 }
