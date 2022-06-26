@@ -17,7 +17,7 @@
 .day4__carousel{
     position: absolute;
     width: 700px;
-    z-index: 10;
+    z-index: 1;
     top: 145px;
     right: 0;
 }

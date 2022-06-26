@@ -155,3 +155,25 @@
         font-size: 19px;
     }
 }
+
+@media (max-width: 769px) {
+    .footer__row {
+        column-gap: 20px;
+    }
+    .footer__content {
+        width: calc(25% - 5px);
+        padding: 0;
+    }
+    .footer__sub {
+        flex-direction: column;
+    }
+    .footer__out{
+        flex-wrap: wrap;
+    }
+    .footer__tel {
+        font-size: 17px;
+    }
+    .footer__address {
+        font-size: 15px;
+    }
+}

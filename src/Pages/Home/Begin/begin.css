@@ -11,7 +11,7 @@
     height: 725px;
     width: 100%;
     left: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 .begin::after{
@@ -19,14 +19,14 @@
     top: 657px;
     right: 0;
     position: absolute;
-    z-index: 5;
+    z-index: 1;
 }
 
 
 
 .begin .container{
     position: relative;
-    z-index: 3;
+    z-index: 1;
 }
 
 .begin__bg{
@@ -158,5 +158,20 @@
 @media (max-width: 992px) {
     .begin {
         padding: 0 0 147px;
+    }
+}
+
+@media (max-width: 769px) {
+    .begin__title {
+        font-size: 37px;
+    }
+    .begin__list::before {
+        font-size: 160px;
+    }
+    .begin__item-category {
+        font-size: 15px;
+    }
+    .begin::after {
+        top: 540px;
     }
 }

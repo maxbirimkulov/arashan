@@ -153,3 +153,17 @@
         height: 54px;
     }
 }
+
+@media (max-width: 769px) {
+    .sum__tarif {
+        width: 65%;
+    }
+    .sum__tarif-item {
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 0 4px 17px 0;
+    }
+    .sum__circle {
+        height: 61px;
+    }
+}

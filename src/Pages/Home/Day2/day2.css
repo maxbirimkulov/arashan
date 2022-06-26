@@ -18,13 +18,13 @@
     left: 0;
     top: 0;
     transform: translateY(-40%);
-    z-index: 3;
+    z-index: 1;
     width: 100%;
 }
 
 .day2 .container{
     position: relative;
-    z-index: 7;
+    z-index: 1;
 }
 
 .day2__title{
@@ -70,7 +70,7 @@
     position: absolute;
     left: 0;
     bottom: 80px;
-    z-index: 20;
+    z-index: 1;
 }
 
 .day2__item{
@@ -91,5 +91,27 @@
     }
     .swiper-left1 .swiper-slide {
         width: 73% !important;
+    }
+}
+
+@media (max-width: 769px) {
+    .day2__lake {
+        top: 26px;
+        max-width: 430px;
+    }
+    .day2__text_sec {
+        margin-bottom: 80px;
+    }
+    .day2__carousel {
+        max-width: 370px;
+    }
+    .day2__list {
+        width: 50%;
+    }
+    .day2__item {
+        font-size: 14px;
+    }
+    .swiper-left1 .swiper-slide {
+        width: 96% !important;
     }
 }

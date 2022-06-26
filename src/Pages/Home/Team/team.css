@@ -93,3 +93,11 @@
     color: black;
     transition: .3s;
 }
+
+
+ @media (max-width: 769px) {
+     .team__title {
+         font-size: 52px;
+         line-height: 66px;
+     }
+ }

@@ -15,7 +15,7 @@
     position: absolute;
     bottom: 137px;
     right: 0;
-    z-index: 10;
+    z-index: 1;
 }
 
 
@@ -39,7 +39,7 @@
 
 .firstScreen .container{
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .firstScreen__title{
@@ -134,5 +134,37 @@
     }
     .firstScreen__carousel {
         width: 400px;
+    }
+}
+
+@media (max-width: 769px) {
+    .firstScreen {
+        padding: 110px 0 85px;
+    }
+
+    .firstScreen__carousel {
+        display: none;
+    }
+
+    .firstScreen__title {
+        font-size: 41px;
+        line-height: 43px;
+    }
+    .firstScreen__time {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .firstScreen__text {
+        font-size: 18px;
+    }
+    .firstScreen__circle {
+        width: 40px;
+        height: 40px;
+    }
+    .firstScreen__tour {
+        margin-bottom: 15px;
+    }
+    .firstScreen::before {
+        height: 85%;
     }
 }

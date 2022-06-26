@@ -7,7 +7,7 @@
 .day6__carousel{
     position: absolute;
     width: 700px;
-    z-index: 10;
+    z-index: 1;
     bottom: 324px!important;
     top: unset;
     right: 0;
@@ -39,7 +39,7 @@
 
 .day5 .container{
     position: relative;
-    z-index: 4;
+    z-index: 1;
 }
 
 
@@ -71,7 +71,7 @@
     position: absolute;
     left: 0;
     top: 208px;
-    z-index: 20;
+    z-index: 1;
 }
 
 .day5__item{
@@ -161,5 +161,21 @@
     }
     .day6__carousel {
         max-width: 530px;
+    }
+}
+
+@media (max-width: 769px) {
+    .day5__carousel {
+        max-width: 370px;
+    }
+    .day5__info_1 {
+        width: 50%;
+    }
+
+    .swiper-left .swiper-slide {
+        width: 90%;
+    }
+    .day6__carousel {
+        display: none
     }
 }

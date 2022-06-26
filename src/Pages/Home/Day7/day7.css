@@ -26,13 +26,13 @@
     left: 0;
     top: 0;
     transform: translateY(-40%);
-    z-index: 3;
+    z-index: 1;
     width: 100%;
 }
 
 .day7 .container{
     position: relative;
-    z-index: 7;
+    z-index: 1;
 }
 
 .day7__title{
@@ -73,7 +73,7 @@
 
 .day7__carousel{
     position: absolute;
-    z-index: 20;
+    z-index: 1;
     max-width: 700px;
     bottom: 0;
     left: 0;
@@ -128,7 +128,7 @@
 
 @media (max-width: 992px) {
     .day7__carousel {
-        max-width: 505px;
+        max-width: 490px;
         bottom: -120px;
     }
     .day7__carousel .swiper-left1 .swiper-slide {
@@ -137,5 +137,17 @@
 
     .day7__content-title {
         color: white;
+    }
+}
+
+@media (max-width: 769px) {
+    .day7::before {
+        display: none;
+    }
+    .day7__carousel {
+        max-width: 260px;
+    }
+    .day7__carousel .swiper-slide {
+        margin-left: 56px!important;
     }
 }

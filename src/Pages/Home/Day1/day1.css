@@ -8,14 +8,14 @@
 .day1__carousel{
     position: absolute;
     width: 670px;
-    z-index: 10;
+    z-index: 1;
     top: 234px;
     right: 0;
 }
 
 .day1 .container{
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .day1::before{
@@ -82,5 +82,20 @@
     .swiper-right .swiper-slide {
         width: 58%;
     }
+}
 
+@media (max-width: 769px) {
+    .day1__carousel {
+        width: 321px;
+        top: 227px;
+    }
+    .day1__carousel .swiper-button-prev {
+        display: none;
+    }
+    .day1__carousel .swiper-button-next {
+        display: none;
+    }
+    .swiper-right .swiper-slide {
+        width: 91%;
+    }
 }
