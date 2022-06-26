@@ -30,6 +30,10 @@ const Team = () => {
                     spaceBetween={96}
                     breakpoints={
                         {
+                            1200: {
+                                slidesPerView: 3,
+                                spaceBetween: 96,
+                            },
                             577: {
                                 slidesPerView: 2,
                                 spaceBetween: 30,
