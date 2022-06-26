@@ -101,3 +101,20 @@
          line-height: 66px;
      }
  }
+
+@media (max-width: 577px) {
+    .team {
+        padding: 70px 0 60px;
+    }
+    .team__title {
+        font-size: 43px;
+        line-height: 66px;
+    }
+    .team .swiper-button-next {
+        display: none;
+    }
+    .team .swiper-button-prev {
+        display: none;
+    }
+
+}

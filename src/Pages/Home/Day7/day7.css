@@ -151,3 +151,18 @@
         margin-left: 56px!important;
     }
 }
+
+@media (max-width: 577px) {
+    .day7__carousel {
+        display: none;
+    }
+    .day7__title {
+        font-size: 37px;
+    }
+    .day7__text {
+        font-size: 20px;
+    }
+    .day7__content {
+        justify-content: flex-start;
+    }
+}

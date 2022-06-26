@@ -81,3 +81,21 @@
         width: 90%;
     }
 }
+
+@media (max-width: 577px) {
+    .day3 {
+        padding: 0 0 153px;
+    }
+    .day3__carousel {
+        display: none;
+    }
+    .day3__content {
+        justify-content: flex-start;
+    }
+    .day3__info {
+        width: 100%;
+    }
+    .day3__item {
+        font-size: 20px;
+    }
+}

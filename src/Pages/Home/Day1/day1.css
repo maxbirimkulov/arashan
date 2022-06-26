@@ -99,3 +99,9 @@
         width: 91%;
     }
 }
+
+@media (max-width: 577px) {
+    .day1__carousel {
+        display: none;
+    }
+}

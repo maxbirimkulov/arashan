@@ -275,3 +275,20 @@ input[type="number"]::-webkit-inner-spin-button {
         width: 200px;
     }
 }
+
+@media (max-width: 577px) {
+    .online__content {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .online__bot {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .online__bot-img {
+        display: none;
+    }
+    .online__bot-right {
+        width: 100%;
+    }
+}

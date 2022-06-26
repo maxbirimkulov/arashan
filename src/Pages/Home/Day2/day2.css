@@ -115,3 +115,22 @@
         width: 96% !important;
     }
 }
+
+@media (max-width: 577px) {
+    .day2__carousel {
+        display: none;
+    }
+    .day2__lake {
+        display: none;
+    }
+    .day2__content {
+        justify-content: flex-start;
+        column-gap: 0;
+    }
+    .day2__list {
+        width: 100%;
+    }
+    .day2__item {
+        font-size: 17px;
+    }
+}

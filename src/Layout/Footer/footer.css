@@ -177,3 +177,27 @@
         font-size: 15px;
     }
 }
+
+@media (max-width: 769px) {
+    .footer__row {
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+    .footer__content {
+        width: calc(50% - 10px);
+        padding: 0;
+    }
+    .footer__sub {
+        flex-direction: column;
+    }
+    .footer__out{
+        flex-wrap: wrap;
+    }
+    .footer__tel {
+        font-size: 17px;
+    }
+    .footer__address {
+        font-size: 15px;
+    }
+}

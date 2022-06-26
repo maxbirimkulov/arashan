@@ -167,3 +167,15 @@
         height: 61px;
     }
 }
+
+@media (max-width: 577px) {
+    .sum {
+        padding: 120px 0;
+    }
+    .sum__title{
+        font-size: 54px;
+    }
+    .sum__card-item span {
+        font-size: 15px;
+    }
+}

@@ -179,3 +179,12 @@
         display: none
     }
 }
+
+@media (max-width: 577px) {
+    .day5__carousel {
+        display: none;
+    }
+    .day5__info_1 {
+        width: 100%;
+    }
+}

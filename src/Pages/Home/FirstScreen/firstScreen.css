@@ -168,3 +168,31 @@
         height: 85%;
     }
 }
+
+
+@media (max-width: 577px) {
+    .firstScreen {
+        padding: 78px 0 37px;
+    }
+    .firstScreen::before {
+        height: 90%;
+    }
+    .firstScreen__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .firstScreen__title {
+        font-size: 35px;
+        line-height: 36px;
+        margin-bottom: 18px;
+    }
+    .firstScreen__time {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .firstScreen__circle {
+        width: 30px;
+        height: 30px;
+    }
+}

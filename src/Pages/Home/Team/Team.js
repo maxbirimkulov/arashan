@@ -7,7 +7,7 @@ import tezza from './tezza.png'
 import evg from './evg.png'
 import dmit from './dmit.png'
 
-import { Navigation } from "swiper";
+import {Autoplay, Navigation} from "swiper";
 import Swipe from "./Swipe";
 const Team = () => {
     return (
@@ -24,10 +24,21 @@ const Team = () => {
 
                 <Swiper
                     navigation={true}
-                    modules={[Navigation]}
+                    modules={[Navigation, Autoplay]}
                     loop={true}
                     slidesPerView={3}
                     spaceBetween={96}
+                    breakpoints={
+                        {
+                            577: {
+                                slidesPerView: 2,
+                                spaceBetween: 30,
+                                autoPlay: true,
+                                speed: 3000
+                            }
+                        }
+
+                    }
                     className="mySwiper"
                 >
                     <SwiperSlide>

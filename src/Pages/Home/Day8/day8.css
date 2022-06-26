@@ -25,3 +25,13 @@
     color: #FFFFFF;
     text-align: center;
 }
+
+@media (max-width: 577px) {
+    .day8 {
+        padding: 170px 0 130px;
+    }
+    .day8__title {
+        font-size: 37px;
+    }
+
+}

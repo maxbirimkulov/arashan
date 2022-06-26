@@ -174,4 +174,38 @@
     .begin::after {
         top: 540px;
     }
+    .begin__btns {
+        z-index: 1;
+    }
+}
+
+@media (max-width: 577px) {
+    .begin {
+        padding: 0 0 78px;
+    }
+    .begin__title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .begin__subtitle {
+        font-size: 23px;
+    }
+    .begin__text {
+        font-size: 14px;
+    }
+    .begin__list {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .begin__list::before {
+        font-size: 117px;
+    }
+    .begin::after {
+        top: 575px;
+    }
+    .begin__item {
+        width: calc(50% - 7.5px);
+        margin-right: 0;
+        text-align: center;
+    }
 }
