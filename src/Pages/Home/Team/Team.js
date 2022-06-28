@@ -45,6 +45,18 @@ const Team = () => {
                                 spaceBetween: 30,
                                 autoPlay: true,
                                 speed: 3000
+                            },
+                            376 : {
+                                slidesPerView: 2,
+                                spaceBetween: 30,
+                                autoPlay: true,
+                                speed: 3000
+                            },
+                            321 : {
+                                slidesPerView: 1,
+                                spaceBetween: 30,
+                                autoPlay: true,
+                                speed: 3000
                             }
                         }
 

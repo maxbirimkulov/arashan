@@ -303,3 +303,31 @@ input[type="number"]::-webkit-inner-spin-button {
         color: #F47648;
     }
 }
+
+@media (max-width: 321px) {
+    .online__form-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .online__form-tops {
+        width: 70%;
+    }
+    .online__form-item {
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: flex-start;
+    }
+    .online__form-radio {
+        column-gap: 15px;
+    }
+    .online__form-textarea .online__form-input {
+        font-size: 14px;
+    }
+    .online__bot-form {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .online__bot-input {
+        width: 100%;
+    }
+}

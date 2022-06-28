@@ -199,4 +199,35 @@
     .day5__info_1 {
         margin-bottom: 50px;
     }
+    .day5__info {
+        width: 100%;
+    }
+    .day5__dop-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 376px) {
+    .day5__item {
+        font-size: 13px;
+    }
+    .day5__dop-title {
+        font-size: 15px;
+        margin-right: 30px;
+    }
+    .day5__dop-text {
+        font-size: 16px;
+    }
+    .day5__dop-item {
+        flex-direction: column;
+        row-gap: 10px;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 321px) {
+    .day5__title {
+        font-size: 35px;
+    }
+
 }

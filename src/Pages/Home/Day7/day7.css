@@ -180,4 +180,37 @@
     .day7__text {
         font-size: 17px;
     }
+    .day7__dop-item {
+        width: 100%;
+    }
+    .day7__content-right {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 376px) {
+
+    .day7__text {
+        font-size: 13px;
+    }
+    .day7__dop-title {
+        font-size: 13px;
+        margin-right: 30px;
+    }
+    .day7__dop-text {
+        font-size: 12px;
+    }
+    .day7__dop-text {
+        font-size: 16px;
+    }
+    .day7__dop-item {
+        flex-direction: column;
+        row-gap: 10px;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 321px) {
+
 }

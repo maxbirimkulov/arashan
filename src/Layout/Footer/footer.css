@@ -201,3 +201,34 @@
         font-size: 15px;
     }
 }
+
+@media (max-width: 376px) {
+    .footer__tel {
+        font-size: 15px;
+    }
+    .footer__time {
+        font-size: 12px;
+    }
+    .footer__email{
+        font-size: 13px;
+    }
+    .footer__address {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 321px) {
+    .footer__row {
+        align-items: center;
+    }
+    .footer__address {
+        font-size: 11px;
+    }
+    .footer__tel {
+        font-size: 12px;
+    }
+    .footer__time {
+        font-size: 10px;
+    }
+}

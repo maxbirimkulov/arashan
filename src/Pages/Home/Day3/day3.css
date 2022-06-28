@@ -105,3 +105,16 @@
         font-size: 19px;
     }
 }
+
+@media (max-width: 481px) {
+    .day3__item {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .day3__title {
+        font-size: 35px;
+    }
+}

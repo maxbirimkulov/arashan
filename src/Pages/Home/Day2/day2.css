@@ -140,3 +140,16 @@
         font-size: 29px;
     }
 }
+
+
+@media (max-width: 376px) {
+    .day2__item {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 321px) {
+    .day2__title {
+        line-height: 39px;
+    }
+}

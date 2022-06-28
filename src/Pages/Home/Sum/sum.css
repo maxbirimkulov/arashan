@@ -209,3 +209,26 @@
         row-gap: 43px;
     }
 }
+
+
+@media (max-width: 376px) {
+    .sum__title{
+        font-size: 33px;
+    }
+    .sum__tarif-title {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 321px) {
+    .sum {
+        padding: 50px 0;
+    }
+    .sum__title {
+        font-size: 28px;
+    }
+    .sum__tarif-title {
+        font-size: 14px;
+    }
+}

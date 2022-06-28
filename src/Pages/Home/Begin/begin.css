@@ -231,3 +231,19 @@
         font-size: 23px;
     }
 }
+
+@media (max-width: 376px) {
+    .begin__item-category {
+        font-size: 14px;
+    }
+    .begin__list::before {
+        font-size: 75px;
+        bottom: -60px;
+    }
+}
+
+@media (max-width: 321px) {
+    .begin__list::before {
+        font-size: 62px;
+    }
+}

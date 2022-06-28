@@ -206,3 +206,28 @@
         display: none;
     }
 }
+
+@media (max-width: 376px) {
+    .firstScreen__link {
+        font-size: 14px;
+    }
+    .firstScreen__social-icon {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 321px) {
+    .firstScreen__title {
+        font-size: 33px;
+        line-height: 34px;
+    }
+    .firstScreen__text {
+        font-size: 15px;
+    }
+    .firstScreen__link {
+        font-size: 13px;
+    }
+    .firstScreen__flex {
+        flex-direction: column;
+    }
+}

@@ -41,3 +41,18 @@
         font-size: 32px;
     }
 }
+
+@media (max-width: 376px) {
+    .day8__text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 321px) {
+    .day8__title {
+        font-size: 24px;
+    }
+    .day8__text {
+        font-size: 11px;
+    }
+}

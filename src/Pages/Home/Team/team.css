@@ -128,3 +128,18 @@
         font-size: 14px;
     }
 }
+
+
+@media (max-width: 376px){
+    .team__title {
+        font-size: 27px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 321px) {
+    .team__title {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
